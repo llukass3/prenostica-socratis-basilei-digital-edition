@@ -4,17 +4,36 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
+     <fileDesc>
+        <titleStmt>
+           <title>Digitale Edition von Prenostica Socratis Basilei</title>
+           <respStmt>
+              <resp>Digitale edition von</resp>
+              <name>Lukas Schleicher</name>
+              <name>Mia Held</name>
+              <name>Luisa Meinks</name>
+           </respStmt>
+        </titleStmt>
+        <publicationStmt>
+           <p>Not intended for publishing</p>
+        </publicationStmt>
+        <sourceDesc>
+           <msDesc>
+              <msIdentifier>
+                 <country>Germany</country>
+                 <settlement>Munich</settlement>
+                 <repository>Bayerische Staatsbibliothek</repository>
+                 <idno>Cgm 312, fol. 120r-143rc</idno>
+              </msIdentifier>
+           </msDesc>
+           <bibl>
+              <author>Konrad Bollstatter</author> 
+              <title>Prenostica Socratis Basilei</title>
+              <date from="1450" to="1473">1450 – 1473</date>
+              <lang>Ostschwäbisch</lang>
+           </bibl>
+        </sourceDesc>
+     </fileDesc>
   </teiHeader>
   <text>
       <body>
