@@ -37,7 +37,24 @@
   </teiHeader>
   <text>
       <body>
-         <p>Some text here.</p>
+         <div>
+            <head>
+               II . VIII . V <lb/>
+               Zway achte und funff <lb/>
+               Die Namen der Perge <lb/>
+              2 . 8 . 5 . V <lb/>
+               Die perge <lb/>
+               Achte. zway und fůnffe <lb/>
+            </head>
+         </div>
+         <div>
+         </div>
+         <div>
+            <p>
+               Die berge haben in zal. 2 . 8 . V<lb/>
+               Achte . zway und fůnffe
+            </p>
+         </div>
       </body>
   </text>
 </TEI>
