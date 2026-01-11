@@ -48,6 +48,18 @@
             </head>
          </div>
          <div>
+            <table>
+               <row n="1">
+                  <cell role="number">Zway</cell>
+                  <cell role="label">Ob der geselle gůt [sey]</cell>
+                  <cell role="number">Zway</cell>
+                  <cell role="mountain">Synoy</cell>
+                  <cell role="desc">
+                     Du hast 2 ougen geworffen. Ob der gesell oder frůnd gut sy oder nit. so ge an
+                     dy ander zeil zů dem künig von Cecylien.
+                  </cell>
+               </row>
+            </table>
          </div>
          <div>
             <p>
