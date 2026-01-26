@@ -39,165 +39,170 @@
       <body>
          <div>
             <head>
-               <name xml:id="bergA" rend="top-left">Olberg</name>
+               <name xml:id="mountain.olberg" rend="top-left">Olberg</name>
                II . VIII . V
-               <name xml:id="bergB" rend="top-right">Synoy</name>
+               <name xml:id="mountain.synoy" rend="top-right">Synoy</name>
                <lb/>
-               Zway achte und funff <lb/>
+               <num value="2">Zway</num> 
+               <num value="8">achte</num> und  
+               <num value="5">funff</num> 
+               <lb/>
                Die Namen der Perge <lb/>
-               2 . 8 . 5 . V <lb/>
+               <num value="2">2</num>.
+               <num value="8">8</num>.
+               <num value="5">5</num>.
+               <num value="5">V</num>
+               <lb/>
                Die perge <lb/>
-               Achte. zway und fůnffe
+               <num value="8">Achte</num>.  
+               <num value="2">zway</num> und 
+               <num value="5">fůnffe</num> 
             </head>
             
-            <figure type="diagram">
-               <desc>
-                  <objectType>Kreisdiagramm</objectType>
-               </desc>
-               
-               
+            <figure style="Kreisdiagramm">
+               <table>
+                  <row n="1">
+                     <cell role="number"><num value="2">Zway</num></cell>
+                     <cell role="label">Ob der geselle gůt [sey]</cell>
+                     <cell role="number"><num value="2">Zway</num></cell>
+                     <cell role="mountain"><name ref="#mountain.synoy">Synoy</name></cell>
+                     <cell role="desc">
+                        Du hast 2 ougen geworffen. Ob der gesell oder frůnd gut sy oder nit. so ge an
+                        dy ander zeil zů dem <persName ref="#pageNr">künig von Cecylien</persName>.
+                     </cell>
+                  </row>
+                  
+                  <row n="2">
+                     <cell role="number"><num value="5">Fünffe</num></cell>
+                     <cell role="label">Ob dir das zů gee</cell>
+                     <cell role="number"><num value="5">Fünffe</num></cell>
+                     <cell role="mountain">Gelboe</cell>
+                     <cell role="desc">
+                        Du hast V ougen geworffen. Ob dir das zůgee oder nit. so stellest so
+                        gang an die .V. zeil zů dem <persName ref="#pageNr">künig von Franckreych</persName>.
+                     </cell>
+                  </row>
+                  
+                  <row n="3">
+                     <cell role="number"><num value="8">Achte</num></cell>
+                     <cell role="label">Ob ain wittwe</cell>
+                     <cell role="number"><num value="8">Achte</num></cell>
+                     <cell role="mountain">Yppff</cell>
+                     <cell role="desc">
+                        Du hast 8 ougen geworffen. Ob ain wittwe oder ein lediger ein
+                        eeweib sol nemen. so gang an die .VIII. zeil zů dem
+                        <persName ref="#pageNr">künig von Schotten</persName>.
+                     </cell>
+                  </row>
+                  
+                  <row n="4">
+                     <cell role="number"><num value="2">Zway</num></cell>
+                     <cell role="label">Ob der sich genas</cell>
+                     <cell role="number"><num value="2">Zway</num></cell>
+                     <cell role="mountain">Aricht</cell>
+                     <cell role="desc">
+                        Du hast 2 ougen geworffen. Ob der sich genas oder nit. so ge an
+                        die .II. zeil zů dem <persName ref="#pageNr">künig von Franckreych</persName>,
+                        der sagt dirs gar.
+                     </cell>
+                  </row>
+                  
+                  <row n="5">
+                     <cell role="number"><num value="5">Fünffe</num></cell>
+                     <cell role="label">Ob ain mensch uss</cell>
+                     <cell role="number"><num value="5">Fünffe</num></cell>
+                     <cell role="mountain"><name ref="#mountain.oselberg">Oselberg</name></cell>
+                     <cell role="desc">
+                        Du hast V ougen geworffen. Ob ein mensch uss sey oder ob es her
+                        wider kom. so ge an die .V. zeil zů dem
+                        <persName ref="#pageNr">künig von Littaw</persName>.
+                     </cell>
+                  </row>
+                  
+                  <row n="6">
+                     <cell role="number"><num value="8">Achte</num></cell>
+                     <cell role="label">Ob du reicher wer</cell>
+                     <cell role="number"><num value="8">Achte</num></cell>
+                     <cell role="mountain">Thabor</cell>
+                     <cell role="desc">
+                        Du hast 8 ougen geworffen. Ob du reicher werdest oder nit.
+                        so ge an die .VIII. zeil zů dem
+                        <persName ref="#pageNr">künig von Franckreych</persName>.
+                     </cell>
+                  </row>
+                  
+                  <row n="7">
+                     <cell role="number"><num value="2">Zway</num></cell>
+                     <cell role="label">Ob ain junckfraw</cell>
+                     <cell role="number"><num value="2">Zway</num></cell>
+                     <cell role="mountain">Olympus</cell>
+                     <cell role="desc">
+                        Du hast 2 ougen geworffen. Ob ain junckfraw oder wittwe
+                        ain man sol nemen oder nit. so ge an die ander zeil zů dem
+                        <persName ref="#pageNr">künig von Littaw</persName>.
+                     </cell>
+                  </row>
+                  
+                  <row n="8">
+                     <cell role="number"><num value="8">Achte</num></cell>
+                     <cell role="label">Ob dein lieb stett sey</cell>
+                     <cell role="number"><num value="8">Achte</num></cell>
+                     <cell role="mountain">Garganus</cell>
+                     <cell role="desc">
+                        Du hast 8 ougen geworffen. Ob dein lieb stett sey oder nit.
+                        so ge an dy .VIII. zeil zů dem <persName ref="#pageNr">Cecylie</persName>.
+                     </cell>
+                  </row>
+                  
+                  <row n="9">
+                     <cell role="number"><num value="2">Zway</num></cell>
+                     <cell role="label">Ob du mit spile ge</cell>
+                     <cell role="number"><num value="2">Zway</num></cell>
+                     <cell role="mountain"><name ref="#mountain.ypperberg">Ypperberg</name></cell>
+                     <cell role="desc">
+                        Du hast 2 ougen geworffen. Ob du mit spyl gewynnest oder nit.
+                        so gang an dy andern zeil zů dem
+                        <persName ref="#pageNr">künig von Rewssen</persName>.
+                     </cell>
+                  </row>
+                  
+                  <row n="10">
+                     <cell role="number"><num value="5">Fünffe</num></cell>
+                     <cell role="label">Ob gut tadingen sey</cell>
+                     <cell role="number"><num value="5">Fünffe</num></cell>
+                     <cell role="mountain"><name ref="#mountain.olberg">Olberg</name></cell>
+                     <cell role="desc">
+                        Du hast V ougen geworffen. Ob gut tadingen sey oder nit.
+                        so ge an die .V. zeil zů dem <persName ref="#pageNr">künig von Bullen</persName>.
+                     </cell>
+                  </row>
+                  
+                  <row n="11">
+                     <cell role="number"><num value="8">Achte</num></cell>
+                     <cell role="label">Ob ettwas verloren sey</cell>
+                     <cell role="number"><num value="8">Achte</num></cell>
+                     <cell role="mountain">Caspie</cell>
+                     <cell role="desc">
+                        Du hast 8 ougen geworffen. Ob ettwas verloren sey oder ob es wider werd.
+                        so ge an die achtende zeil zů dem
+                        <persName ref="#pageNr">künig von Behein</persName>.
+                     </cell>
+                  </row>                  
+               </table>
             </figure>
-         
-            <table>
-        
-               <row n="1">
-                  <cell role="number"><val>Zway</val></cell>
-                  <cell role="label">Ob der geselle gůt [sey]</cell>
-                  <cell role="number"><val>Zway</val></cell>
-                  <cell role="mountain"><name ref="#bergB">Synoy</name></cell>
-                  <cell role="desc">
-                     Du hast 2 ougen geworffen. Ob der gesell oder frůnd gut sy oder nit. so ge an
-                     dy ander zeil zů dem <persName>künig von Cecylien</persName>.
-                  </cell>
-               </row>
-                     
-                     <row n="2">
-                        <cell role="number"><val>Fünffe</val></cell>
-                        <cell role="label">Ob dir das zů gee</cell>
-                        <cell role="number"><val>Fünffe</val></cell>
-                        <cell role="mountain">Gelboe</cell>
-                        <cell role="desc">
-                           Du hast V ougen geworffen. Ob dir das zůgee oder nit. so stellest so
-                           gang an die .V. zeil zů dem <persName>künig von Franckreych</persName>.
-                        </cell>
-                     </row>
-                     
-                     <row n="3">
-                        <cell role="number"><val>Achte</val></cell>
-                        <cell role="label">Ob ain wittwe</cell>
-                        <cell role="number"><val>Achte</val></cell>
-                        <cell role="mountain">Yppff</cell>
-                        <cell role="desc">
-                           Du hast 8 ougen geworffen. Ob ain wittwe oder ein lediger ein
-                           eeweib sol nemen. so gang an die .VIII. zeil zů dem
-                           <persName>künig von Schotten</persName>.
-                        </cell>
-                     </row>
-                     
-                     <row n="4">
-                        <cell role="number"><val>Zway</val></cell>
-                        <cell role="label">Ob der sich genas</cell>
-                        <cell role="number"><val>Zway</val></cell>
-                        <cell role="mountain">Aricht</cell>
-                        <cell role="desc">
-                           Du hast 2 ougen geworffen. Ob der sich genas oder nit. so ge an
-                           die .II. zeil zů dem <persName>künig von Franckreych</persName>,
-                           der sagt dirs gar.
-                        </cell>
-                     </row>
-                     
-               <row n="5">
-                  <cell role="number"><val>Fünffe</val></cell>
-                  <cell role="label">Ob ain mensch uss</cell>
-                  <cell role="number"><val>Fünffe</val></cell>
-                  <cell role="mountain"><name ref="#bergC">Oselberg</name></cell>
-                  <cell role="desc">
-                     Du hast V ougen geworffen. Ob ein mensch uss sey oder ob es her
-                     wider kom. so ge an die .V. zeil zů dem
-                     <persName>künig von Littaw</persName>.
-                  </cell>
-               </row>
-               
-                     <row n="6">
-                        <cell role="number"><val>Achte</val></cell>
-                        <cell role="label">Ob du reicher wer</cell>
-                        <cell role="number"><val>Achte</val></cell>
-                        <cell role="mountain">Thabor</cell>
-                        <cell role="desc">
-                           Du hast 8 ougen geworffen. Ob du reicher werdest oder nit.
-                           so ge an die .VIII. zeil zů dem
-                           <persName>künig von Franckreych</persName>.
-                        </cell>
-                     </row>
-                     
-                     <row n="7">
-                        <cell role="number"><val>Zway</val></cell>
-                        <cell role="label">Ob ain junckfraw</cell>
-                        <cell role="number"><val>Zway</val></cell>
-                        <cell role="mountain">Olympus</cell>
-                        <cell role="desc">
-                           Du hast 2 ougen geworffen. Ob ain junckfraw oder wittwe
-                           ain man sol nemen oder nit. so ge an die ander zeil zů dem
-                           <persName>künig von Littaw</persName>.
-                        </cell>
-                     </row>
-                     
-                     <row n="8">
-                        <cell role="number"><val>Achte</val></cell>
-                        <cell role="label">Ob dein lieb stett sey</cell>
-                        <cell role="number"><val>Achte</val></cell>
-                        <cell role="mountain">Garganus</cell>
-                        <cell role="desc">
-                           Du hast 8 ougen geworffen. Ob dein lieb stett sey oder nit.
-                           so ge an dy .VIII. zeil zů dem <persName>Cecylie</persName>.
-                        </cell>
-                     </row>
-                     
-               <row n="9">
-                  <cell role="number"><val>Zway</val></cell>
-                  <cell role="label">Ob du mit spile ge</cell>
-                  <cell role="number"><val>Zway</val></cell>
-                  <cell role="mountain"><name ref="#bergD">Ypperberg</name></cell>
-                  <cell role="desc">
-                     Du hast 2 ougen geworffen. Ob du mit spyl gewynnest oder nit.
-                     so gang an dy andern zeil zů dem
-                     <persName>künig von Rewssen</persName>.
-                  </cell>
-               </row>
-                   
-               <row n="10">
-                  <cell role="number"><val>Fünffe</val></cell>
-                  <cell role="label">Ob gut tadingen sey</cell>
-                  <cell role="number"><val>Fünffe</val></cell>
-                  <cell role="mountain"><name ref="#bergA">Olberg</name></cell>
-                  <cell role="desc">
-                     Du hast V ougen geworffen. Ob gut tadingen sey oder nit.
-                     so ge an die .V. zeil zů dem <persName>künig von Bullen</persName>.
-                  </cell>
-               </row>
-                     
-                     <row n="11">
-                        <cell role="number"><val>Achte</val></cell>
-                        <cell role="label">Ob ettwas verloren sey</cell>
-                        <cell role="number"><val>Achte</val></cell>
-                        <cell role="mountain">Caspie</cell>
-                        <cell role="desc">
-                           Du hast 8 ougen geworffen. Ob ettwas verloren sey oder ob es wider werd.
-                           so ge an die achtende zeil zů dem
-                           <persName>künig von Behein</persName>.
-                        </cell>
-                     </row>
-              
-            </table>
          </div>
          <div>
             <p>
-               Die berge haben in zal. 2 . 8 . V<lb/>
+               Die berge haben in zal. 
+               <num value="2">2</num>.
+               <num value="8">8</num>.
+               <num value="5">V</num>
+               <lb/>
                Achte . zway und fůnffe
             </p>
             <p>
-               <name xml:id="bergC" rend="bottom-left">Oselberg</name>
-               <name xml:id="bergD" rend="bottom-right">Ypperberg</name>
+               <name xml:id="mountain.oselberg" rend="bottom-left">Oselberg</name>
+               <name xml:id="mountain.ypperberg" rend="bottom-right">Ypperberg</name>
             </p>
          </div>
       </body>
