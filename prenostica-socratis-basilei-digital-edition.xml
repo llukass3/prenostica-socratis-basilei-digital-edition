@@ -35,6 +35,9 @@
         </sourceDesc>
      </fileDesc>
   </teiHeader>
+   <facsimile>
+      <graphic url="facsimile.png"/>
+   </facsimile>
   <text>
       <body>
          <div>
