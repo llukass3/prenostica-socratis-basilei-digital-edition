@@ -39,9 +39,9 @@
       <body>
          <div>
             <head>
-               <name xml:id="mountain.olberg" rend="top-left">Olberg</name>
+               <name ref="#mountain.olberg" rend="top-left">Olberg</name>
                II . VIII . V
-               <name xml:id="mountain.synoy" rend="top-right">Synoy</name>
+               <name ref="#mountain.synoy" rend="top-right">Synoy</name>
                <lb/>
                <num value="2">Zway</num> 
                <num value="8">achte</num> und  
@@ -65,7 +65,7 @@
                      <cell role="number"><num value="2">Zway</num></cell>
                      <cell role="label">Ob der geselle gůt [sey]</cell>
                      <cell role="number"><num value="2">Zway</num></cell>
-                     <cell role="mountain"><name ref="#mountain.synoy">Synoy</name></cell>
+                     <cell role="mountain"><name  xml:id="mountain.synoy">Synoy</name></cell>
                      <cell role="desc">
                         Du hast 2 ougen geworffen. Ob der gesell oder frůnd gut sy oder nit. so ge an
                         dy ander zeil zů dem <persName ref="#pageNr">künig von Cecylien</persName>.
@@ -76,7 +76,7 @@
                      <cell role="number"><num value="5">Fünffe</num></cell>
                      <cell role="label">Ob dir das zů gee</cell>
                      <cell role="number"><num value="5">Fünffe</num></cell>
-                     <cell role="mountain">Gelboe</cell>
+                     <cell role="mountain"><name  xml:id="mountain.gelboe">Gelboe</name></cell>
                      <cell role="desc">
                         Du hast V ougen geworffen. Ob dir das zůgee oder nit. so stellest so
                         gang an die .V. zeil zů dem <persName ref="#pageNr">künig von Franckreych</persName>.
@@ -87,7 +87,7 @@
                      <cell role="number"><num value="8">Achte</num></cell>
                      <cell role="label">Ob ain wittwe</cell>
                      <cell role="number"><num value="8">Achte</num></cell>
-                     <cell role="mountain">Yppff</cell>
+                     <cell role="mountain"><name  xml:id="mountain.yppff">Yppff</name></cell>
                      <cell role="desc">
                         Du hast 8 ougen geworffen. Ob ain wittwe oder ein lediger ein
                         eeweib sol nemen. so gang an die .VIII. zeil zů dem
@@ -99,7 +99,7 @@
                      <cell role="number"><num value="2">Zway</num></cell>
                      <cell role="label">Ob der sich genas</cell>
                      <cell role="number"><num value="2">Zway</num></cell>
-                     <cell role="mountain">Aricht</cell>
+                     <cell role="mountain"><name  xml:id="mountain.aricht">Aricht</name></cell>
                      <cell role="desc">
                         Du hast 2 ougen geworffen. Ob der sich genas oder nit. so ge an
                         die .II. zeil zů dem <persName ref="#pageNr">künig von Franckreych</persName>,
@@ -111,7 +111,7 @@
                      <cell role="number"><num value="5">Fünffe</num></cell>
                      <cell role="label">Ob ain mensch uss</cell>
                      <cell role="number"><num value="5">Fünffe</num></cell>
-                     <cell role="mountain"><name ref="#mountain.oselberg">Oselberg</name></cell>
+                     <cell role="mountain"><name  xml:id="mountain.oselberg">Oselberg</name></cell>
                      <cell role="desc">
                         Du hast V ougen geworffen. Ob ein mensch uss sey oder ob es her
                         wider kom. so ge an die .V. zeil zů dem
@@ -123,7 +123,7 @@
                      <cell role="number"><num value="8">Achte</num></cell>
                      <cell role="label">Ob du reicher wer</cell>
                      <cell role="number"><num value="8">Achte</num></cell>
-                     <cell role="mountain">Thabor</cell>
+                     <cell role="mountain"><name  xml:id="mountain.thabor">Thabor</name></cell>
                      <cell role="desc">
                         Du hast 8 ougen geworffen. Ob du reicher werdest oder nit.
                         so ge an die .VIII. zeil zů dem
@@ -135,7 +135,7 @@
                      <cell role="number"><num value="2">Zway</num></cell>
                      <cell role="label">Ob ain junckfraw</cell>
                      <cell role="number"><num value="2">Zway</num></cell>
-                     <cell role="mountain">Olympus</cell>
+                     <cell role="mountain"><name  xml:id="mountain.olympus">Olympus</name></cell>
                      <cell role="desc">
                         Du hast 2 ougen geworffen. Ob ain junckfraw oder wittwe
                         ain man sol nemen oder nit. so ge an die ander zeil zů dem
@@ -147,7 +147,7 @@
                      <cell role="number"><num value="8">Achte</num></cell>
                      <cell role="label">Ob dein lieb stett sey</cell>
                      <cell role="number"><num value="8">Achte</num></cell>
-                     <cell role="mountain">Garganus</cell>
+                     <cell role="mountain"><name  xml:id="mountain.garganus">Garganus</name></cell>
                      <cell role="desc">
                         Du hast 8 ougen geworffen. Ob dein lieb stett sey oder nit.
                         so ge an dy .VIII. zeil zů dem <persName ref="#pageNr">Cecylie</persName>.
@@ -158,7 +158,7 @@
                      <cell role="number"><num value="2">Zway</num></cell>
                      <cell role="label">Ob du mit spile ge</cell>
                      <cell role="number"><num value="2">Zway</num></cell>
-                     <cell role="mountain"><name ref="#mountain.ypperberg">Ypperberg</name></cell>
+                     <cell role="mountain"><name  xml:id="mountain.ypperberg">Ypperberg</name></cell>
                      <cell role="desc">
                         Du hast 2 ougen geworffen. Ob du mit spyl gewynnest oder nit.
                         so gang an dy andern zeil zů dem
@@ -170,7 +170,7 @@
                      <cell role="number"><num value="5">Fünffe</num></cell>
                      <cell role="label">Ob gut tadingen sey</cell>
                      <cell role="number"><num value="5">Fünffe</num></cell>
-                     <cell role="mountain"><name ref="#mountain.olberg">Olberg</name></cell>
+                     <cell role="mountain"><name  xml:id="mountain.olberg">Olberg</name></cell>
                      <cell role="desc">
                         Du hast V ougen geworffen. Ob gut tadingen sey oder nit.
                         so ge an die .V. zeil zů dem <persName ref="#pageNr">künig von Bullen</persName>.
@@ -181,7 +181,7 @@
                      <cell role="number"><num value="8">Achte</num></cell>
                      <cell role="label">Ob ettwas verloren sey</cell>
                      <cell role="number"><num value="8">Achte</num></cell>
-                     <cell role="mountain">Caspie</cell>
+                     <cell role="mountain"><name  xml:id="mountain.caspie">Caspie</name></cell>
                      <cell role="desc">
                         Du hast 8 ougen geworffen. Ob ettwas verloren sey oder ob es wider werd.
                         so ge an die achtende zeil zů dem
@@ -198,11 +198,14 @@
                <num value="8">8</num>.
                <num value="5">V</num>
                <lb/>
-               Achte . zway und fůnffe
+               <num value="8">Achte</num> .
+               <num value="2">zway</num> und 
+               <num value="5">fůnffe</num>
+               <lb/>
             </p>
             <p>
-               <name xml:id="mountain.oselberg" rend="bottom-left">Oselberg</name>
-               <name xml:id="mountain.ypperberg" rend="bottom-right">Ypperberg</name>
+               <name ref="#mountain.oselberg" rend="bottom-left">Oselberg</name>
+               <name ref="#mountain.ypperberg" rend="bottom-right">Ypperberg</name>
             </p>
          </div>
       </body>
