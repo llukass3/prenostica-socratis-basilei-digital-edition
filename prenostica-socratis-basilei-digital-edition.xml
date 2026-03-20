@@ -3,221 +3,229 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Digitale Edition von Prenostica Socratis Basilei</title>
-            <respStmt>
-               <resp>Digitale edition von</resp>
-               <name>Lukas Schleicher</name>
-               <name>Mia Held</name>
-               <name>Luisa Meinks</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <p>Not intended for publishing</p>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>
-               <msIdentifier>
-                  <country>Germany</country>
-                  <settlement>Munich</settlement>
-                  <repository>Bayerische Staatsbibliothek</repository>
-                  <idno>Cgm 312</idno>
-               </msIdentifier>
-               <msContents>
-                  <msItem>
-                     <locus>fol. 121r</locus>
-                     <note>Die vorliegende digitale Edition umfasst ausschließlich dieses Folio.</note>
-                  </msItem>
-               </msContents>
-            </msDesc>
-            <bibl>
-               <author>Konrad Bollstatter</author> 
-               <title>Prenostica Socratis Basilei</title>
-               <date from="1450" to="1473">1450 – 1473</date>
-               <lang>Ostschwäbisch</lang>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <facsimile>
-      <graphic url="facsimile.png"/>
-   </facsimile>
-   <text>
-      <body>
-         <div>
-            <head>
-               <name ref="#mountain.olberg" rend="black">Olberg</name>
-               II . VIII . V
-               <name ref="#mountain.synoy" rend="black">Synoy</name>
-               <lb/>
-               <num value="2" rend="red">Zway</num> 
-               <num value="8" rend="red">achte</num> und  
-               <num value="5" rend="red">funff</num> 
-               <lb/>
-               Die Namen der Perge <lb/>
-               <num value="2" rend="red">2</num>.
-               <num value="8" rend="red">8</num>.
-               <num value="5" rend="red">5</num>.
-               <num value="5" rend="red">V</num>
-               <lb/>
-               Die perge <lb/>
-               <num value="8" rend="red">Achte</num>.  
-               <num value="2" rend="red">zway</num> und 
-               <num value="5" rend="red">fůnffe</num> 
-            </head>
-            
-            <figure type="diagram">
-               <figDesc>Kreisdiagramm mit zentralem Buchstaben „B“.</figDesc>
-               <table>
-                  <row n="1">
-                     <cell role="number"><num value="2" rend="red">Zway</num></cell>
-                     <cell role="label">Ob der geselle gůt [sey]</cell>
-                     <cell role="number"><num value="2" rend="red">Zway</num></cell>
-                     <cell role="mountain"><name  xml:id="mountain.synoy" rend="red">Synoy</name></cell>
-                     <cell role="desc">
-                        Du hast 2 ougen geworffen. Ob der gesell oder frůnd gut sy oder nit. so ge an
-                        dy ander zeil zů dem <persName ref="#pageNr">künig von Cecylien</persName>.
-                     </cell>
-                  </row>
-                  
-                  <row n="2">
-                     <cell role="number"><num value="5" rend="red">Fünffe</num></cell>
-                     <cell role="label">Ob dir das zů gee</cell>
-                     <cell role="number"><num value="5" rend="red">Fünffe</num></cell>
-                     <cell role="mountain"><name  xml:id="mountain.gelboe" rend="black">Gelboe</name></cell>
-                     <cell role="desc">
-                        Du hast V ougen geworffen. Ob dir das zůgee oder nit. so stellest so
-                        gang an die .V. zeil zů dem <persName ref="#pageNr">künig von Franckreych</persName>.
-                     </cell>
-                  </row>
-                  
-                  <row n="3">
-                     <cell role="number"><num value="8" rend="red">Achte</num></cell>
-                     <cell role="label">Ob ain wittwe</cell>
-                     <cell role="number"><num value="8" rend="red">Achte</num></cell>
-                     <cell role="mountain"><name  xml:id="mountain.yppff" rend="red">Yppff</name></cell>
-                     <cell role="desc">
-                        Du hast 8 ougen geworffen. Ob ain wittwe oder ein lediger ein
-                        eeweib sol nemen. so gang an die .VIII. zeil zů dem
-                        <persName ref="#pageNr">künig von Schotten</persName>.
-                     </cell>
-                  </row>
-                  
-                  <row n="4">
-                     <cell role="number"><num value="2" rend="red">Zway</num></cell>
-                     <cell role="label">Ob der sich genas</cell>
-                     <cell role="number"><num value="2" rend="red">Zway</num></cell>
-                     <cell role="mountain"><name  xml:id="mountain.aricht" rend="black">Aricht</name></cell>
-                     <cell role="desc">
-                        Du hast 2 ougen geworffen. Ob der sich genas oder nit. so ge an
-                        die .II. zeil zů dem <persName ref="#pageNr">künig von Franckreych</persName>,
-                        der sagt dirs gar.
-                     </cell>
-                  </row>
-                  
-                  <row n="5">
-                     <cell role="number"><num value="5" rend="red">Fünffe</num></cell>
-                     <cell role="label">Ob ain mensch uss</cell>
-                     <cell role="number"><num value="5" rend="red">Fünffe</num></cell>
-                     <cell role="mountain"><name  xml:id="mountain.oselberg" rend="red">Oselberg</name></cell>
-                     <cell role="desc">
-                        Du hast V ougen geworffen. Ob ein mensch uss sey oder ob es her
-                        wider kom. so ge an die .V. zeil zů dem
-                        <persName ref="#pageNr">künig von Littaw</persName>.
-                     </cell>
-                  </row>
-                  
-                  <row n="6">
-                     <cell role="number"><num value="8" rend="red">Achte</num></cell>
-                     <cell role="label">Ob du reicher wer</cell>
-                     <cell role="number"><num value="8" rend="red">Achte</num></cell>
-                     <cell role="mountain"><name  xml:id="mountain.thabor" rend="black">Thabor</name></cell>
-                     <cell role="desc">
-                        Du hast 8 ougen geworffen. Ob du reicher werdest oder nit.
-                        so ge an die .VIII. zeil zů dem
-                        <persName ref="#pageNr">künig von Franckreych</persName>.
-                     </cell>
-                  </row>
-                  
-                  <row n="7">
-                     <cell role="number"><num value="2" rend="red">Zway</num></cell>
-                     <cell role="label">Ob ain junckfraw</cell>
-                     <cell role="number"><num value="2" rend="red">Zway</num></cell>
-                     <cell role="mountain"><name  xml:id="mountain.olympus" rend="red">Olympus</name></cell>
-                     <cell role="desc">
-                        Du hast 2 ougen geworffen. Ob ain junckfraw oder wittwe
-                        ain man sol nemen oder nit. so ge an die ander zeil zů dem
-                        <persName ref="#pageNr">künig von Littaw</persName>.
-                     </cell>
-                  </row>
-                  
-                  <row n="8">
-                     <cell role="number"><num value="8" rend="red">Achte</num></cell>
-                     <cell role="label">Ob dein lieb stett sey</cell>
-                     <cell role="number"><num value="8" rend="red">Achte</num></cell>
-                     <cell role="mountain"><name  xml:id="mountain.garganus" rend="black">Garganus</name></cell>
-                     <cell role="desc">
-                        Du hast 8 ougen geworffen. Ob dein lieb stett sey oder nit.
-                        so ge an dy .VIII. zeil zů dem <persName ref="#pageNr">Cecylie</persName>.
-                     </cell>
-                  </row>
-                  
-                  <row n="9">
-                     <cell role="number"><num value="2" rend="red">Zway</num></cell>
-                     <cell role="label">Ob du mit spile ge</cell>
-                     <cell role="number"><num value="2" rend="red">Zway</num></cell>
-                     <cell role="mountain"><name  xml:id="mountain.ypperberg" rend="red">Ypperberg</name></cell>
-                     <cell role="desc">
-                        Du hast 2 ougen geworffen. Ob du mit spyl gewynnest oder nit.
-                        so gang an dy andern zeil zů dem
-                        <persName ref="#pageNr">künig von Rewssen</persName>.
-                     </cell>
-                  </row>
-                  
-                  <row n="10">
-                     <cell role="number"><num value="5" rend="red">Fünffe</num></cell>
-                     <cell role="label">Ob gut tadingen sey</cell>
-                     <cell role="number"><num value="5" rend="red">Fünffe</num></cell>
-                     <cell role="mountain"><name  xml:id="mountain.olberg" rend="black">Olberg</name></cell>
-                     <cell role="desc">
-                        Du hast V ougen geworffen. Ob gut tadingen sey oder nit.
-                        so ge an die .V. zeil zů dem <persName ref="#pageNr">künig von Bullen</persName>.
-                     </cell>
-                  </row>
-                  
-                  <row n="11">
-                     <cell role="number"><num value="8" rend="red">Achte</num></cell>
-                     <cell role="label">Ob ettwas verloren sey</cell>
-                     <cell role="number"><num value="8" rend="red">Achte</num></cell>
-                     <cell role="mountain"><name  xml:id="mountain.caspie" rend="red">Caspie</name></cell>
-                     <cell role="desc">
-                        Du hast 8 ougen geworffen. Ob ettwas verloren sey oder ob es wider werd.
-                        so ge an die achtende zeil zů dem
-                        <persName ref="#pageNr">künig von Behein</persName>.
-                     </cell>
-                  </row>                  
-               </table>
-            </figure>
-         </div>
-         <div>
-            <p>
-               Die berge haben in zal. 
-               <num value="2" rend="red">2</num>.
-               <num value="8" rend="red">8</num>.
-               <num value="5" rend="red">V</num>
-               <lb/>
-               <num value="8" rend="red">Achte</num> .
-               <num value="2" rend="red">zway</num> und 
-               <num value="5" rend="red">fůnffe</num>
-               <lb/>
-            </p>
-            <p>
-               <name ref="#mountain.oselberg" rend="black">Oselberg</name>
-               <name ref="#mountain.ypperberg" rend="black">Ypperberg</name>
-            </p>
-         </div>
-      </body>
-   </text>
-</TEI>
+      <teiHeader>
+         <fileDesc>
+            <titleStmt>
+               <title>Digitale Edition von Prenostica Socratis Basilei</title>
+               <respStmt>
+                  <resp>Digitale edition von</resp>
+                  <name>Lukas Schleicher</name>
+                  <name>Mia Held</name>
+                  <name>Luisa Meinks</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <p>Not intended for publishing</p>
+            </publicationStmt>
+            <sourceDesc>
+               <msDesc>
+                  <msIdentifier>
+                     <country>Germany</country>
+                     <settlement>Munich</settlement>
+                     <repository>Bayerische Staatsbibliothek</repository>
+                     <idno>Cgm 312</idno>
+                  </msIdentifier>
+                  <msContents>
+                     <msItem>
+                        <locus>fol. 121r</locus>
+                        <note>Die vorliegende digitale Edition umfasst ausschließlich dieses Folio.</note>
+                     </msItem>
+                  </msContents>
+               </msDesc>
+               <bibl>
+                  <author>Konrad Bollstatter</author> 
+                  <title>Prenostica Socratis Basilei</title>
+                  <date from="1450" to="1473">1450 – 1473</date>
+                  <lang>Ostschwäbisch</lang>
+               </bibl>
+            </sourceDesc>
+         </fileDesc>
+      </teiHeader>
+      <facsimile>
+         <graphic url="facsimile.png"/>
+      </facsimile>
+      <text>
+         <body>
+            <div>
+               <head>
+                  <name ref="#mountain.olberg">Olberg</name>
+                  II . VIII . V
+                  <name ref="#mountain.synoy">Synoy</name>
+                  <lb/>
+                  <num value="2" rend="red">Zway</num> 
+                  <num value="8">achte</num> und  
+                  <num value="5" rend="red">funff</num> 
+                  <lb/>
+                  <hi rend="red">Die Namen der Perge</hi>
+                  <lb/>
+                  <num value="2">2</num>.
+                  <num value="8" rend="red">8</num>.
+                  <num value="5">5</num>.
+                  <num value="5" rend="red">V</num>
+                  <lb/>
+                  Die Perge <lb/>
+                  <num value="8" rend="red">Achte</num>.  
+                  <num value="2">zway</num> und 
+                  <num value="5" rend="red">fůnffe</num> 
+               </head>
+               
+               <figure type="diagram">
+                  <figDesc>Kreisdiagramm mit zentralem Buchstaben „B“.</figDesc>
+                  <table>
+                     <row n="1">
+                        <cell role="number"><num value="2">Zway</num></cell>
+                        <cell role="label"><hi rend="red">Ob der geselle gůt [sey]</hi></cell>
+                        <cell role="number"><num value="2">Zway</num></cell>
+                        <cell role="mountain">
+                           <name xml:id="mountain.synoy"><hi rend="red">Syn</hi>oy</name>
+                        </cell>
+                        <cell role="desc" rend="red">
+                           Du hast 2 ougen geworffen. Ob der gesell oder frůnd gut sy oder nit. so ge an
+                           dy ander zeil zů dem <persName ref="#pageNr">künig von Cecylien</persName>.
+                        </cell>
+                     </row>
+                     
+                     <row n="2">
+                        <cell role="number"><num value="5">Fünffe</num></cell>
+                        <cell role="label"><hi rend="red">Ob dir das zů gee</hi></cell>
+                        <cell role="number"><num value="5">Fünffe</num></cell>
+                        <cell role="mountain">
+                           <name xml:id="mountain.gelboe"><hi rend="red">Gelboe</hi></name>
+                        </cell>
+                        <cell role="desc">
+                           Du hast V ougen geworffen. Ob dir das zůgee oder nit. so stellest so
+                           gang an die .V. zeil zů dem <persName ref="#pageNr">künig von Franckreych</persName>.
+                        </cell>
+                     </row>
+                     
+                     <row n="3">
+                        <cell role="number"><num value="8" rend="red">Achte</num></cell>
+                        <cell role="label">Ob ain wittwe</cell>
+                        <cell role="number"><num value="8" rend="red">Achte</num></cell>
+                        <cell role="mountain"><name xml:id="mountain.yppff">Yppff</name></cell>
+                        <cell role="desc" rend="red">
+                           Du hast 8 ougen geworffen. Ob ain wittwe oder ein lediger ein
+                           eeweib sol nemen. so gang an die .VIII. zeil zů dem
+                           <persName ref="#pageNr">künig von Schotten</persName>.
+                        </cell>
+                     </row>
+                     
+                     <row n="4">
+                        <cell role="number"><num value="2">Zway</num></cell>
+                        <cell role="label"><hi rend="red">Ob der sich genas</hi></cell>
+                        <cell role="number"><num value="2" rend="red">Zway</num></cell>
+                        <cell role="mountain"><name xml:id="mountain.aricht">Aricht</name></cell>
+                        <cell role="desc">
+                           Du hast 2 ougen geworffen. Ob der sich genas oder nit. so ge an
+                           die .II. zeil zů dem <persName ref="#pageNr">künig von Franckreych</persName>,
+                           der sagt dirs gar.
+                        </cell>
+                     </row>
+                     
+                     <row n="5">
+                        <cell role="number"><num value="5" rend="red">Fünffe</num></cell>
+                        <cell role="label">Ob ain mensch uss</cell>
+                        <cell role="number"><num value="5">Fünffe</num></cell>
+                        <cell role="mountain">
+                           <name xml:id="mountain.oselberg"><hi rend="red">Oselberg</hi></name>
+                        </cell>
+                        <cell role="desc" rend="red">
+                           Du hast V ougen geworffen. Ob ein mensch uss sey oder ob es her
+                           wider kom. so ge an die .V. zeil zů dem
+                           <persName ref="#pageNr">künig von Littaw</persName>.
+                        </cell>
+                     </row>
+                     
+                     <row n="6">
+                        <cell role="number"><num value="8">Achte</num></cell>
+                        <cell role="label"><hi rend="red">Ob du reicher wer</hi></cell>
+                        <cell role="number"><num value="8">Achte</num></cell>
+                        <cell role="mountain"><name xml:id="mountain.thabor">Thabor</name></cell>
+                        <cell role="desc">
+                           <hi rend="red">D</hi>u hast 8 ougen geworffen. Ob du reicher werdest oder nit.
+                           so ge an die .VIII. zeil zů dem
+                           <persName ref="#pageNr">künig von Franckreych</persName>.
+                        </cell>
+                     </row>
+                     
+                     <row n="7">
+                        <cell role="number"><num value="2" rend="red">Zway</num></cell>
+                        <cell role="label">Ob ain junckfraw</cell>
+                        <cell role="number"><num value="2">Zway</num></cell>
+                        <cell role="mountain"><name xml:id="mountain.olympus" rend="red">Olympus</name></cell>
+                        <cell role="desc">
+                           D<hi rend="red">u hast 2 ougen geworffen. Ob ain junckfraw oder wittwe
+                              ain man sol nehmen oder nit. so ge an die ander zeil zů dem
+                           </hi>
+                           <persName ref="#pageNr"><hi rend="red">künig von Littaw</hi></persName>.
+                        </cell>
+                     </row>
+                     vergessen Captis
+                     <row n="8">
+                        <cell role="number"><num value="8" rend="red">Achte</num></cell>
+                        <cell role="label">Ob dein lieb stett sey</cell>
+                        <cell role="number"><num value="8" rend="red">Achte</num></cell>
+                        <cell role="mountain"><name xml:id="mountain.garganus">Garganus</name></cell>
+                        <cell role="desc">
+                           Du hast 8 ougen geworffen. Ob dein lieb stett sey oder nit.
+                           so ge an dy .VIII. zeil zů dem <persName ref="#pageNr">Cecylie</persName>.
+                        </cell>
+                     </row>
+                     
+                     <row n="9">
+                        <cell role="number"><num value="2" rend="red">Zway</num></cell>
+                        <cell role="label">Ob du mit spile ge</cell>
+                        <cell role="number"><num value="2" rend="red">Zway</num></cell>
+                        <cell role="mountain"><name xml:id="mountain.ypperberg" rend="red">Ypperberg</name></cell>
+                        <cell role="desc">
+                           Du hast 2 ougen geworffen. Ob du mit spyl gewynnest oder nit.
+                           so gang an dy andern zeil zů dem
+                           <persName ref="#pageNr">künig von Rewssen</persName>.
+                        </cell>
+                     </row>
+                     
+                     <row n="10">
+                        <cell role="number"><num value="5" rend="red">Fünffe</num></cell>
+                        <cell role="label">Ob gut tadingen sey</cell>
+                        <cell role="number"><num value="5" rend="red">Fünffe</num></cell>
+                        <cell role="mountain"><name xml:id="mountain.olberg">Olberg</name></cell>
+                        <cell role="desc">
+                           Du hast V ougen geworffen. Ob gut tadingen sey oder nit.
+                           so ge an die .V. zeil zů dem <persName ref="#pageNr">künig von Bullen</persName>.
+                        </cell>
+                     </row>
+                     
+                     <row n="11">
+                        <cell role="number"><num value="8" rend="red">Achte</num></cell>
+                        <cell role="label">Ob ettwas verloren sey</cell>
+                        <cell role="number"><num value="8" rend="red">Achte</num></cell>
+                        <cell role="mountain"><name xml:id="mountain.caspie" rend="red">Caspie</name></cell>
+                        <cell role="desc">
+                           Du hast 8 ougen geworffen. Ob ettwas verloren sey oder ob es wider werd.
+                           so ge an die achtende zeil zů dem
+                           <persName ref="#pageNr">künig von Behein</persName>.
+                        </cell>
+                     </row>                  
+                  </table>
+               </figure>
+            </div>
+            <div>
+               <p>
+                  Die berge haben <hi rend="red">in</hi> zal. 
+                  <num value="2" rend="red">2</num>.
+                  <num value="8">8</num>.
+                  <num value="5" rend="red">V</num>
+                  <lb/>
+                  <num value="8" rend="red">Achte</num> .
+                  <num value="2" rend="red">zway</num> und 
+                  <num value="5" rend="red">fůnffe</num>
+                  <lb/>
+               </p>
+               <p>
+                  <name ref="#mountain.oselberg">Oselberg</name>
+                  <name ref="#mountain.ypperberg">Ypperberg</name>
+               </p>
+            </div>
+         </body>
+      </text>
+   </TEI>
